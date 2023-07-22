@@ -1,0 +1,24 @@
+.App{
+  min-height: 100vh;
+  background-color: black;
+  top:0;
+}
+*{
+  margin: 0px;
+}
+
+.lg-device{
+  @media screen and (max-width:771px){
+    display: none;
+}
+}
+.sm-device{
+  @media screen and (min-width:772px){
+    display: none;
+}
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}

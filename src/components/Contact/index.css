@@ -1,0 +1,36 @@
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height:70vh;
+    align-items: center;
+}
+
+h1{
+    color: #ffffff;
+}
+.icons{
+    color: #ffffff;
+    font-size: 70px;
+    padding: 8px;
+    border-radius: 8px;
+}
+.icons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram:hover {
+    color: #ffffff;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+    transition: 0.5s ease;
+}
+.linkedin:hover {
+    background-color: #0A66C2;
+    color: #ffffff;
+    transition: 0.5s ease;
+}
