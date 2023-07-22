@@ -79,9 +79,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <div className="sm-device">
       <SmallDevices/>
-      </div>
       <div className="lg-device">
       <Header/>
         <Home/>

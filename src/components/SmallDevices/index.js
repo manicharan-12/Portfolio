@@ -7,6 +7,9 @@ flex-direction:column;
 justify-content:center;
 align-item:center;
 padding:24px;
+min-height:100vh;
+@media screen and (min-width:772px){
+    display: none;
 `
 
 const Image=styled.img`
