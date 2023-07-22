@@ -87,9 +87,9 @@ const App = () => {
         <Home/>
         <About/>
         <Projects/>
-        <Particles options={options} init={particlesInit} />
         <Contact/>
         </div>
+        <Particles options={options} init={particlesInit} />
       </div>
   );
 };
