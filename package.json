@@ -2,7 +2,7 @@
   "name": "myapp",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://manicharan-12.github.io/Portfolio",
+  "homepage": "https://manicharan-12.github.io/Portfolio/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
