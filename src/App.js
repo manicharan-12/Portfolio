@@ -36,7 +36,7 @@ const App = () => {
         enable: true,
         distance: 150,
         color: "#808080",
-        opacity: 0.4,
+        opacity: 0.8,
         width: 1
       },
       move: {
