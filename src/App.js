@@ -6,15 +6,13 @@ import Home from './components/Home'
 import About from './components/About'
 import Header from './components/Header'
 import SmallDevices from './components/SmallDevices'
-import NotFound from './components/NotFound'
 import Projects from "./components/Projects"
 import Contact from './components/Contact'
-import {Routes, Route} from 'react-router-dom'
 const App = () => {
   const options = {
     particles: {
       number: {
-        value: 100,
+        value: 80,
         density: {
           enable: true,
           area: 800
@@ -34,7 +32,7 @@ const App = () => {
       },
       links: {
         enable: true,
-        distance: 150,
+        distance: 130,
         color: "#808080",
         opacity: 0.8,
         width: 1
