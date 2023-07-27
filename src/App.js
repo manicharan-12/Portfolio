@@ -12,7 +12,7 @@ const App = () => {
   const options = {
     particles: {
       number: {
-        value: 80,
+        value: 90,
         density: {
           enable: true,
           area: 800
@@ -39,7 +39,7 @@ const App = () => {
       },
       move: {
         enable: true,
-        speed: 4,
+        speed: 2.9,
         direction: "none",
         random: false,
         straight: false,
@@ -85,7 +85,7 @@ const App = () => {
         <Projects/>
         <Contact/>
         </div>
-        <Particles options={options} init={particlesInit} />
+        <Particles options={options} init={particlesInit} className="align-particles"/>
       </div>
   );
 };

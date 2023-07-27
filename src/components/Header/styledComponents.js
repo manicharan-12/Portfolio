@@ -4,6 +4,8 @@ import { Link } from 'react-scroll';
 export const NavContainer = styled.nav`
 position: sticky;
 top: 0;
+-webkit-backdrop-filter: blur(8px);
+backdrop-filter: ${props=>props.isBlur};
 `
 
 export const NavigatorLink=styled(Link)`

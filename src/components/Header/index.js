@@ -3,11 +3,24 @@ import { slide as Menu } from 'react-burger-menu'
 import { Component } from 'react'
 import { Slant as Hamburger } from 'hamburger-react'
 
-class Header extends Component{
+class Header extends Component{   
     
-    render(){
+    state={
+        isScrolled:false
+    }
+    changeNavbarColor = () => {
+        if (window.scrollY >= 120) {
+            this.setState({isScrolled:true})
+        }
+        else {
+            this.setState({isScrolled:false})
+        }
+    }   
+    render(){         
+        const {isScrolled}=this.state  
+        const blurBg=  isScrolled ? 'blur(8px)': 'none'
         return(
-            <NavContainer>
+            <NavContainer isBlur={blurBg} onScroll={this.changeNavbarColor()}>
                 <LargeDevice>
                 <NavigatorLink to="homeSection" spy={true} smooth={true} duration={900} activeClass="active">
                 <LogoImage src="https://res.cloudinary.com/djovsq3xl/image/upload/v1686470517/letter-mc-logo-design-typography-mc-design_219523-184-removebg-preview_fjjzzf.png" alt="logo"/>

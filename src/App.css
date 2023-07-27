@@ -2,7 +2,15 @@
   min-height: 100vh;
   background-color: black;
   top:0;
+  z-index: 1;
+  position: relative;
 }
+
+.align-particles{
+  z-index: -1;
+  position: absolute;
+}
+
 *{
   margin: 0px;
 }
