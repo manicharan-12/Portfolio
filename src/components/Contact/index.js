@@ -11,13 +11,15 @@ return(
         </div>
         <div className='info-container'>
             <HiMail className='info-icon'/>
-            <a className='info' href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=gade.manicharan12@gmail.com">
+            <a className='info' 
+            href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=gade.manicharan12@gmail.com"
+            target="_blank">
                 gade.manicharan12@gmail.com
             </a>
         </div>
         <div className='info-container'>
             <HiPhone className='info-icon'/>
-            <a className='info' href="tel:7013680808">+91 70136 80808</a>
+            <a className='info' href="tel:7013680808" target="_blank">+91 70136 80808</a>
         </div>
         
     </div>
