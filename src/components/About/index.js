@@ -1,11 +1,11 @@
 import {AboutContainer,ImageContainer,TextContainer,MainTexts,SmallDeviceContainer,LargeDeviceContainer} from './styledComponents'
-
+import Image from '../Aboutimage.png'
 const About = () =>{
     return(
         <AboutContainer id="aboutSection">
             <SmallDeviceContainer>
             <ImageContainer>
-            <img src="https://res.cloudinary.com/djovsq3xl/image/upload/v1686478410/business-man-illustration_1150-58986-removebg-preview_br2zew.png" alt="Mani"/>
+            <img src={Image} alt="Mani"/>
             </ImageContainer>
             <TextContainer>
                 <MainTexts color='#8c8a84'>Hello there, I'm so happy you are here! &#40;:</MainTexts>
@@ -22,7 +22,7 @@ const About = () =>{
             </SmallDeviceContainer>
                 <LargeDeviceContainer>
                 <ImageContainer>
-            <img src="https://res.cloudinary.com/djovsq3xl/image/upload/v1686478410/business-man-illustration_1150-58986-removebg-preview_br2zew.png" alt="Mani"/>
+            <img src={Image} alt="Mani"/>
             </ImageContainer>
             <TextContainer>
                 <MainTexts color='#8c8a84'>Hello there, I'm so happy you are here! &#40;:</MainTexts>
