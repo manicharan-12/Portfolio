@@ -8,6 +8,7 @@ import Header from './components/Header'
 import SmallDevices from './components/SmallDevices'
 import Projects from "./components/Projects"
 import Contact from './components/Contact'
+import Resume from './components/Resume'
 const App = () => {
   const options = {
     particles: {
@@ -83,6 +84,7 @@ const App = () => {
         <Home/>
         <About/>
         <Projects/>
+        <Resume/>
         <Contact/>
         </div>
         <Particles options={options} init={particlesInit} className="align-particles"/>

@@ -1,0 +1,31 @@
+.resume-anchor{
+    text-decoration: none;
+    color: #fff;
+    font-size: 28px;
+    padding-right: 8px;
+}
+
+.resume-conatiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    margin-top: 8%;
+}
+
+.icon-download{
+    color: #fff;
+    font-size: 28px;
+}
+
+.resume-heading{
+    color: #fff;
+}
+button{
+    border: solid 1px #fff;
+    padding: 18px;
+    margin: 12px;
+    border-radius: 8px;
+    background-color: transparent;
+}

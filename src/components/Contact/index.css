@@ -1,8 +1,12 @@
+*{
+    text-decoration: none;
+}
+
 .contactme-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height:70vh;
+    min-height:50vh;
     align-items: center;
 }
 
@@ -33,4 +37,20 @@ h1{
     background-color: #0A66C2;
     color: #ffffff;
     transition: 0.5s ease;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 8px;
+}
+
+.info-icon{
+    color: #ffffff;
+    font-size: 20px;
+    padding-right: 8px;
+}
+
+.info{
+    color: #ffffff;
 }
