@@ -16,7 +16,8 @@ outline:none;
 
 export const LogoImage = styled.img`
 height:100px;
-width:100px;
+width:130px;
+margin-left:8px;
 `
 
 export const ListItemsLg = styled.ul`
