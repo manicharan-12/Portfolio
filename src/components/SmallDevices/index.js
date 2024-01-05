@@ -26,7 +26,11 @@ const SmallDevices=()=>{
 return(
     <SmallDeviceContainer>
         <Image src="https://res.cloudinary.com/djovsq3xl/image/upload/v1686113523/giphy-unscreen_1_online-video-cutter.com_fkuyet.gif" alt="working"/>
+<<<<<<< HEAD
         <Paragraph>This is website is Under Developent for small devices. Use large devices to experience the website.</Paragraph>
+=======
+        <Paragraph>This is website is Under Development for small devices. Use large devices to experience the website.</Paragraph>
+>>>>>>> c09ce83 (Final Commit)
     </SmallDeviceContainer>
 )
 }

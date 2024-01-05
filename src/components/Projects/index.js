@@ -10,8 +10,12 @@ import {
     ImageContainer2,
     ProjectLink,
     ProjectImage,
+<<<<<<< HEAD
     LargeDeviceContainer,
     SmallDeviceContainer
+=======
+    LargeDeviceContainer
+>>>>>>> c09ce83 (Final Commit)
 } from './styledComponents'
 import {CiShare1} from 'react-icons/ci'
 
@@ -19,6 +23,7 @@ import {CiShare1} from 'react-icons/ci'
 const Projects = ()=>{
     return(
         <ProjectContainer id="projectSection">
+<<<<<<< HEAD
             <SmallDeviceContainer>
             <CardContainer>
             <ProjectCard>
@@ -69,6 +74,8 @@ theme.
             </CardContainer>
             </SmallDeviceContainer>
             
+=======
+>>>>>>> c09ce83 (Final Commit)
             <LargeDeviceContainer>
             <CardContainer>
             <ProjectCard>

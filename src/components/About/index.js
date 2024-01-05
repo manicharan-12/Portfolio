@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 import {AboutContainer,ImageContainer,TextContainer,MainTexts,SmallDeviceContainer,LargeDeviceContainer} from './styledComponents'
+=======
+import {AboutContainer,ImageContainer,TextContainer,MainTexts,LargeDeviceContainer} from './styledComponents'
+>>>>>>> c09ce83 (Final Commit)
 import Image from '../Aboutimage.png'
 const About = () =>{
     return(
         <AboutContainer id="aboutSection">
+<<<<<<< HEAD
             <SmallDeviceContainer>
             <ImageContainer>
             <img src={Image} alt="Mani"/>
@@ -20,6 +25,8 @@ const About = () =>{
                 </MainTexts>
                     </TextContainer>
             </SmallDeviceContainer>
+=======
+>>>>>>> c09ce83 (Final Commit)
                 <LargeDeviceContainer>
                 <ImageContainer>
             <img src={Image} alt="Mani"/>

@@ -45,6 +45,7 @@ padding:24px;
 @media screen and (max-width:771px){
     display: none;
 `
+<<<<<<< HEAD
 export const SmallDeviceContainer=styled.div`
 display:flex;
 flex-direction:column;
@@ -56,3 +57,5 @@ min-height:100vh;
 @media screen and (min-width:772px){
     display: none;
 `
+=======
+>>>>>>> c09ce83 (Final Commit)

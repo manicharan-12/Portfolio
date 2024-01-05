@@ -19,7 +19,11 @@ return(
         </div>
         <div className='info-container'>
             <HiPhone className='info-icon'/>
+<<<<<<< HEAD
             <a className='info' href="tel:7013680808" target="_blank">+91 70136 80808</a>
+=======
+            <a className='info' href="" target="_blank">+91 70136 XXXXX</a>
+>>>>>>> c09ce83 (Final Commit)
         </div>
         
     </div>
